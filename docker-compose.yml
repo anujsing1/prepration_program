@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: mta
+      POSTGRES_PASSWORD: mta
+      POSTGRES_DB: morning_trading_agent
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mta -d morning_trading_agent"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  migrate:
+    build: .
+    entrypoint: ["alembic"]
+    command: ["upgrade", "head"]
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mta:mta@postgres:5432/morning_trading_agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+    profiles:
+      - migrate
+
+  app:
+    build: .
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mta:mta@postgres:5432/morning_trading_agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["run-morning-job"]
+
+volumes:
+  pgdata:

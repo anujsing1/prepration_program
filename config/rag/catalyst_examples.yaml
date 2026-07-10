@@ -1,0 +1,42 @@
+# Few-shot catalyst classification examples for RAG retrieval.
+examples:
+  - catalyst_code: ORDER_WIN
+    headline: "HAL wins Rs 6,800 crore defence order from Ministry of Defence"
+    classification: ORDER_WIN
+    magnitude: VERY_HIGH
+    reason: "Company-specific large government defence contract"
+  - catalyst_code: EARNINGS_BEAT
+    headline: "TCS Q3 profit rises 12% YoY, beats street estimates"
+    classification: EARNINGS_BEAT
+    magnitude: HIGH
+    reason: "Quarterly results explicitly beat consensus"
+  - catalyst_code: EARNINGS_MISS
+    headline: "Wipro misses Q2 revenue estimates, cuts FY guidance"
+    classification: EARNINGS_MISS
+    magnitude: HIGH
+    reason: "Reported miss plus guidance downgrade"
+  - catalyst_code: LARGE_CONTRACT
+    headline: "L&T bags metro rail contract worth Rs 2,500 crore"
+    classification: LARGE_CONTRACT
+    magnitude: HIGH
+    reason: "Material infrastructure contract with stated value"
+  - catalyst_code: SECTOR_TAILWIND
+    headline: "Rupee weakens to record low; IT exporters may benefit"
+    classification: SECTOR_TAILWIND
+    magnitude: MEDIUM
+    reason: "Macro sector story without company-specific catalyst"
+  - catalyst_code: GENERIC_MENTION
+    headline: "Stocks to watch today: Reliance, HDFC Bank, Infosys"
+    classification: GENERIC_MENTION
+    magnitude: VERY_LOW
+    reason: "Watchlist mention without concrete company event"
+  - catalyst_code: FDA_APPROVAL
+    headline: "Glenmark receives USFDA approval for generic drug"
+    classification: FDA_APPROVAL
+    magnitude: HIGH
+    reason: "Regulatory approval for specific product"
+  - catalyst_code: BUYBACK
+    headline: "Tata Motors board approves Rs 2,000 crore share buyback"
+    classification: BUYBACK
+    magnitude: HIGH
+    reason: "Board-approved capital return program with size"

@@ -1,0 +1,16 @@
+# Beneficiary discovery evaluation dataset
+id: beneficiary_ethanol_001
+headline: "Government raises ethanol blending target to 20%"
+body: |
+  The cabinet approved a higher ethanol blending mandate effective next fiscal year.
+expected:
+  symbols:
+    - symbol: BALRAMCHIN
+      role: SECTOR_PEER
+    - symbol: TRIVENI
+      role: SECTOR_PEER
+    - symbol: DHAMPURSUG
+      role: SECTOR_PEER
+  catalyst_type: POLICY_BENEFICIARY
+tags: [indirect, policy, ethanol]
+severity: high

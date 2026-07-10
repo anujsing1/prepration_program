@@ -1,0 +1,36 @@
+# Sector taxonomy for indirect beneficiary discovery (Beneficiary Discovery Agent)
+mappings:
+  - keywords:
+      - ethanol blending
+      - ethanol mandate
+      - blending target
+      - biofuel policy
+    symbols:
+      - BALRAMCHIN
+      - TRIVENI
+      - DHAMPURSUG
+      - SHREERAMA
+    role: SECTOR_PEER
+    weight: 0.35
+
+  - keywords:
+      - defence procurement
+      - defense order
+      - drone procurement
+    symbols:
+      - IDEAFOBE
+      - PARAS
+      - MTARTECH
+    role: SECTOR_PEER
+    weight: 0.35
+
+  - keywords:
+      - railway capex
+      - rail budget
+      - wagon order
+    symbols:
+      - TEXRAIL
+      - IRFC
+      - RVNL
+    role: SECTOR_PEER
+    weight: 0.30

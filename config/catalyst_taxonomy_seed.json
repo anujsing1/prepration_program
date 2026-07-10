@@ -1,0 +1,702 @@
+{
+  "entries": [
+    {
+      "catalyst_code": "ORDER_WIN",
+      "catalyst_name": "Order Win",
+      "parent_category": "BUSINESS",
+      "description": "Order Win catalyst type",
+      "bullish_weight": 100.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 95.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "LARGE_CONTRACT",
+      "catalyst_name": "Large Contract",
+      "parent_category": "BUSINESS",
+      "description": "Large Contract catalyst type",
+      "bullish_weight": 95.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 95.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "EARNINGS_BEAT",
+      "catalyst_name": "Earnings Beat",
+      "parent_category": "FINANCIAL",
+      "description": "Earnings Beat catalyst type",
+      "bullish_weight": 95.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 90.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "EARNINGS_MISS",
+      "catalyst_name": "Earnings Miss",
+      "parent_category": "FINANCIAL",
+      "description": "Earnings Miss catalyst type",
+      "bullish_weight": 85.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "EARNINGS",
+      "catalyst_name": "Earnings Results",
+      "parent_category": "FINANCIAL",
+      "description": "Earnings Results catalyst type",
+      "bullish_weight": 95.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GUIDANCE_UPGRADE",
+      "catalyst_name": "Guidance Upgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Guidance Upgrade catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GUIDANCE_DOWNGRADE",
+      "catalyst_name": "Guidance Downgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Guidance Downgrade catalyst type",
+      "bullish_weight": 75.0,
+      "bearish_weight": 25.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "MERGER",
+      "catalyst_name": "Merger",
+      "parent_category": "CORPORATE",
+      "description": "Merger catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "DEFENCE_ORDER",
+      "catalyst_name": "Defence Order",
+      "parent_category": "BUSINESS",
+      "description": "Defence Order catalyst type",
+      "bullish_weight": 98.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "MAJOR_ORDER_WIN",
+      "catalyst_name": "Major Order Win",
+      "parent_category": "BUSINESS",
+      "description": "Major Order Win catalyst type",
+      "bullish_weight": 98.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "STRATEGIC_PARTNERSHIP",
+      "catalyst_name": "Strategic Partnership",
+      "parent_category": "BUSINESS",
+      "description": "Strategic Partnership catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PROMOTER_BUYING",
+      "catalyst_name": "Promoter Buying",
+      "parent_category": "OWNERSHIP",
+      "description": "Promoter Buying catalyst type",
+      "bullish_weight": 92.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PROMOTER_SELLING",
+      "catalyst_name": "Promoter Selling",
+      "parent_category": "OWNERSHIP",
+      "description": "Promoter Selling catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 10.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BLOCK_DEAL",
+      "catalyst_name": "Block Deal",
+      "parent_category": "OWNERSHIP",
+      "description": "Block Deal catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BULK_DEAL",
+      "catalyst_name": "Bulk Deal",
+      "parent_category": "OWNERSHIP",
+      "description": "Bulk Deal catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BROKER_DOWNGRADE",
+      "catalyst_name": "Broker Downgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Broker Downgrade catalyst type",
+      "bullish_weight": 88.0,
+      "bearish_weight": 12.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "FDA_APPROVAL",
+      "catalyst_name": "Fda Approval",
+      "parent_category": "REGULATORY",
+      "description": "Fda Approval catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PHASE3_SUCCESS",
+      "catalyst_name": "Phase3 Success",
+      "parent_category": "REGULATORY",
+      "description": "Phase3 Success catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "REGULATORY_RISK",
+      "catalyst_name": "Regulatory Risk",
+      "parent_category": "REGULATORY",
+      "description": "Regulatory Risk catalyst type",
+      "bullish_weight": 88.0,
+      "bearish_weight": 12.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INDEX_INCLUSION",
+      "catalyst_name": "Index Inclusion",
+      "parent_category": "SECTOR",
+      "description": "Index Inclusion catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INDEX_EXIT",
+      "catalyst_name": "Index Exit",
+      "parent_category": "SECTOR",
+      "description": "Index Exit catalyst type",
+      "bullish_weight": 75.0,
+      "bearish_weight": 25.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "SECTOR_HEADWIND",
+      "catalyst_name": "Sector Headwind",
+      "parent_category": "SECTOR",
+      "description": "Sector Headwind catalyst type",
+      "bullish_weight": 85.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BUYBACK",
+      "catalyst_name": "Share Buyback",
+      "parent_category": "FINANCIAL",
+      "description": "Share Buyback catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 88.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "ACQUISITION",
+      "catalyst_name": "Acquisition",
+      "parent_category": "CORPORATE",
+      "description": "Acquisition catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 85.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "REGULATORY_APPROVAL",
+      "catalyst_name": "Regulatory Approval",
+      "parent_category": "REGULATORY",
+      "description": "Regulatory Approval catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 88.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PROJECT_COMMISSIONING",
+      "catalyst_name": "Project Commissioning",
+      "parent_category": "BUSINESS",
+      "description": "Project Commissioning catalyst type",
+      "bullish_weight": 85.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INSTITUTIONAL_BUYING",
+      "catalyst_name": "Institutional Buying",
+      "parent_category": "OWNERSHIP",
+      "description": "Institutional Buying catalyst type",
+      "bullish_weight": 85.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PARTNERSHIP",
+      "catalyst_name": "Partnership",
+      "parent_category": "BUSINESS",
+      "description": "Partnership catalyst type",
+      "bullish_weight": 80.0,
+      "bearish_weight": 20.0,
+      "tradability_weight": 65.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "FUND_RAISE",
+      "catalyst_name": "Fund Raise",
+      "parent_category": "FINANCIAL",
+      "description": "Fund Raise catalyst type",
+      "bullish_weight": 80.0,
+      "bearish_weight": 20.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INVESTOR_MEETING",
+      "catalyst_name": "Investor Meeting",
+      "parent_category": "CORPORATE",
+      "description": "Investor Meeting catalyst type",
+      "bullish_weight": 12.0,
+      "bearish_weight": 88.0,
+      "tradability_weight": 10.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INVESTOR_PRESENTATION",
+      "catalyst_name": "Investor Presentation",
+      "parent_category": "CORPORATE",
+      "description": "Routine investor presentation without material outcome",
+      "bullish_weight": 8.0,
+      "bearish_weight": 92.0,
+      "tradability_weight": 5.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "ANALYST_MEETING",
+      "catalyst_name": "Analyst Meeting",
+      "parent_category": "CORPORATE",
+      "description": "Analyst Meeting catalyst type",
+      "bullish_weight": 10.0,
+      "bearish_weight": 90.0,
+      "tradability_weight": 10.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "PLANT_VISIT",
+      "catalyst_name": "Plant Visit",
+      "parent_category": "CORPORATE",
+      "description": "Plant Visit catalyst type",
+      "bullish_weight": 8.0,
+      "bearish_weight": 92.0,
+      "tradability_weight": 8.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "DIVIDEND_PROCEDURE",
+      "catalyst_name": "Dividend Procedure",
+      "parent_category": "FINANCIAL",
+      "description": "Dividend Procedure catalyst type",
+      "bullish_weight": 12.0,
+      "bearish_weight": 88.0,
+      "tradability_weight": 12.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "COMPLIANCE_FILING",
+      "catalyst_name": "Compliance Filing",
+      "parent_category": "REGULATORY",
+      "description": "Compliance Filing catalyst type",
+      "bullish_weight": 8.0,
+      "bearish_weight": 92.0,
+      "tradability_weight": 8.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CORPORATE_COMMUNICATION",
+      "catalyst_name": "Corporate Communication",
+      "parent_category": "CORPORATE",
+      "description": "Corporate Communication catalyst type",
+      "bullish_weight": 10.0,
+      "bearish_weight": 90.0,
+      "tradability_weight": 12.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GENERAL_UPDATE",
+      "catalyst_name": "General Update",
+      "parent_category": "CORPORATE",
+      "description": "General Update catalyst type",
+      "bullish_weight": 5.0,
+      "bearish_weight": 95.0,
+      "tradability_weight": 10.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BOARD_MEETING",
+      "catalyst_name": "Board Meeting",
+      "parent_category": "CORPORATE",
+      "description": "Board Meeting catalyst type",
+      "bullish_weight": 12.0,
+      "bearish_weight": 88.0,
+      "tradability_weight": 15.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "MANAGEMENT_GUIDANCE",
+      "catalyst_name": "Management Guidance",
+      "parent_category": "CORPORATE",
+      "description": "Management Guidance catalyst type",
+      "bullish_weight": 80.0,
+      "bearish_weight": 20.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "MANAGEMENT_CHANGE",
+      "catalyst_name": "Management Change",
+      "parent_category": "CORPORATE",
+      "description": "Management Change catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CAPEX_EXPANSION",
+      "catalyst_name": "Capex Expansion",
+      "parent_category": "BUSINESS",
+      "description": "Capex Expansion catalyst type",
+      "bullish_weight": 75.0,
+      "bearish_weight": 25.0,
+      "tradability_weight": 60.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BROKER_UPGRADE",
+      "catalyst_name": "Broker Upgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Broker Upgrade catalyst type",
+      "bullish_weight": 15.0,
+      "bearish_weight": 85.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "BROKER_RATING",
+      "catalyst_name": "Broker Rating",
+      "parent_category": "FINANCIAL",
+      "description": "Broker Rating catalyst type",
+      "bullish_weight": 15.0,
+      "bearish_weight": 85.0,
+      "tradability_weight": 15.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "DIVIDEND_COMMUNICATION",
+      "catalyst_name": "Dividend Communication",
+      "parent_category": "FINANCIAL",
+      "description": "Dividend Communication catalyst type",
+      "bullish_weight": 20.0,
+      "bearish_weight": 80.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "ANALYST_OPINION",
+      "catalyst_name": "Analyst Opinion",
+      "parent_category": "SECTOR",
+      "description": "Analyst Opinion catalyst type",
+      "bullish_weight": 10.0,
+      "bearish_weight": 90.0,
+      "tradability_weight": 12.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "SECTOR_TAILWIND",
+      "catalyst_name": "Sector Tailwind",
+      "parent_category": "SECTOR",
+      "description": "Sector Tailwind catalyst type",
+      "bullish_weight": 60.0,
+      "bearish_weight": 40.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "DEFENCE_PROCUREMENT",
+      "catalyst_name": "Defence Procurement",
+      "parent_category": "BUSINESS",
+      "description": "Defence Procurement catalyst type",
+      "bullish_weight": 95.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 90.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GOVERNMENT_SPENDING",
+      "catalyst_name": "Government Spending",
+      "parent_category": "MACRO",
+      "description": "Government Spending catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 85.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "STRATEGIC_PROCUREMENT",
+      "catalyst_name": "Strategic Procurement",
+      "parent_category": "BUSINESS",
+      "description": "Strategic Procurement catalyst type",
+      "bullish_weight": 88.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 82.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "THEMATIC_DEMAND_SURGE",
+      "catalyst_name": "Thematic Demand Surge",
+      "parent_category": "SECTOR",
+      "description": "Thematic Demand Surge catalyst type",
+      "bullish_weight": 75.0,
+      "bearish_weight": 25.0,
+      "tradability_weight": 70.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "INDUSTRY_POLICY_CHANGE",
+      "catalyst_name": "Industry Policy Change",
+      "parent_category": "MACRO",
+      "description": "Industry Policy Change catalyst type",
+      "bullish_weight": 70.0,
+      "bearish_weight": 30.0,
+      "tradability_weight": 65.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "EXCHANGE_CLARIFICATION",
+      "catalyst_name": "Exchange Clarification",
+      "parent_category": "REGULATORY",
+      "description": "Exchange Clarification catalyst type",
+      "bullish_weight": 8.0,
+      "bearish_weight": 92.0,
+      "tradability_weight": 5.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CLINICAL_TRIAL",
+      "catalyst_name": "Clinical Trial",
+      "parent_category": "REGULATORY",
+      "description": "Clinical Trial catalyst type",
+      "bullish_weight": 92.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "REGULATORY_MILESTONE",
+      "catalyst_name": "Regulatory Milestone",
+      "parent_category": "REGULATORY",
+      "description": "Regulatory Milestone catalyst type",
+      "bullish_weight": 90.0,
+      "bearish_weight": 15.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "JV_ANNOUNCEMENT",
+      "catalyst_name": "Jv Announcement",
+      "parent_category": "BUSINESS",
+      "description": "Jv Announcement catalyst type",
+      "bullish_weight": 82.0,
+      "bearish_weight": 18.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "MANUFACTURING_EXPANSION",
+      "catalyst_name": "Manufacturing Expansion",
+      "parent_category": "BUSINESS",
+      "description": "Manufacturing Expansion catalyst type",
+      "bullish_weight": 80.0,
+      "bearish_weight": 20.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "EXPORT_OPPORTUNITY",
+      "catalyst_name": "Export Opportunity",
+      "parent_category": "BUSINESS",
+      "description": "Export Opportunity catalyst type",
+      "bullish_weight": 65.0,
+      "bearish_weight": 35.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "POLICY_BENEFICIARY",
+      "catalyst_name": "Policy Beneficiary",
+      "parent_category": "MACRO",
+      "description": "Policy Beneficiary catalyst type",
+      "bullish_weight": 70.0,
+      "bearish_weight": 30.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CORPORATE_ACTION",
+      "catalyst_name": "Corporate Action",
+      "parent_category": "CORPORATE",
+      "description": "Corporate Action catalyst type",
+      "bullish_weight": 78.0,
+      "bearish_weight": 22.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "TRADE_SPOTLIGHT",
+      "catalyst_name": "Trade Spotlight",
+      "parent_category": "SECTOR",
+      "description": "Trade Spotlight catalyst type",
+      "bullish_weight": 10.0,
+      "bearish_weight": 90.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "STOCKS_TO_WATCH",
+      "catalyst_name": "Stocks To Watch",
+      "parent_category": "SECTOR",
+      "description": "Stocks To Watch catalyst type",
+      "bullish_weight": 5.0,
+      "bearish_weight": 95.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GENERIC_MENTION",
+      "catalyst_name": "Generic Mention",
+      "parent_category": "SECTOR",
+      "description": "Generic Mention catalyst type",
+      "bullish_weight": 0.0,
+      "bearish_weight": 100.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "GENERIC_MARKET_NEWS",
+      "catalyst_name": "Generic Market News",
+      "parent_category": "MACRO",
+      "description": "Generic Market News catalyst type",
+      "bullish_weight": 0.0,
+      "bearish_weight": 100.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "OTHER",
+      "catalyst_name": "Other",
+      "parent_category": "CORPORATE",
+      "description": "Other catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CONTRACT",
+      "catalyst_name": "Contract Award",
+      "parent_category": "BUSINESS",
+      "description": "Contract Award catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "DIVIDEND",
+      "catalyst_name": "Dividend",
+      "parent_category": "FINANCIAL",
+      "description": "Dividend catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "REGULATORY_ACTION",
+      "catalyst_name": "Regulatory Action",
+      "parent_category": "REGULATORY",
+      "description": "Regulatory Action catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CREDIT_RATING_UPGRADE",
+      "catalyst_name": "Credit Rating Upgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Credit Rating Upgrade catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    },
+    {
+      "catalyst_code": "CREDIT_RATING_DOWNGRADE",
+      "catalyst_name": "Credit Rating Downgrade",
+      "parent_category": "FINANCIAL",
+      "description": "Credit Rating Downgrade catalyst type",
+      "bullish_weight": 25.0,
+      "bearish_weight": 75.0,
+      "tradability_weight": 45.0,
+      "is_active": true
+    }
+  ],
+  "aliases": {
+    "LARGE_CONTRACT": "CONTRACT",
+    "MAJOR_ORDER_WIN": "ORDER_WIN",
+    "DEFENCE_ORDER": "ORDER_WIN",
+    "STRATEGIC_PARTNERSHIP": "PARTNERSHIP",
+    "DIVIDEND_PROCEDURE": "DIVIDEND",
+    "DIVIDEND_COMMUNICATION": "DIVIDEND"
+  }
+}

@@ -1,0 +1,8 @@
+id: catalyst_lic_maruti_001
+headline: "LIC increases stake in Maruti Suzuki"
+body: "Life Insurance Corporation of India increased its shareholding in Maruti Suzuki India."
+expected:
+  symbols: [MARUTI]
+  catalyst_type: INSTITUTIONAL_BUYING
+  direction: bullish
+tags: [direct, institutional]

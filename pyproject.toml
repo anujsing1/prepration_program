@@ -1,0 +1,110 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morning-trading-agent"
+version = "1.0.0"
+description = "Production-grade pre-market watchlist generator for Indian stock market day traders"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    "langchain-openai>=0.2.0",
+    "sqlalchemy[asyncio]>=2.0",
+    "asyncpg>=0.29",
+    "alembic>=1.13",
+    "httpx>=0.27",
+    "tenacity>=8.2",
+    "structlog>=24.0",
+    "yfinance>=0.2",
+    "pandas>=2.0",
+    "pandas-ta>=0.3.14b",
+    "feedparser>=6.0",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "click>=8.1",
+    "pyyaml>=6.0",
+    "certifi>=2024.0",
+    "truststore>=0.10",
+]
+
+[project.optional-dependencies]
+checkpoint = [
+    "langgraph-checkpoint-postgres>=2.0",
+    "psycopg[binary,pool]>=3.1",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-cov>=5.0",
+    "pytest-httpx>=0.30",
+    "testcontainers[postgres]>=4.0",
+    "ruff>=0.4",
+    "black>=24.0",
+    "mypy>=1.10",
+    "pre-commit>=3.7",
+    "types-beautifulsoup4>=4.12",
+]
+ui = [
+    "streamlit>=1.32",
+    "pandas>=2.0",
+]
+
+[project.scripts]
+morning-trading-agent = "morning_trading_agent.presentation.cli.run_morning_job:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+disallow_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = [
+    "yfinance.*",
+    "pandas.*",
+    "pandas_ta.*",
+    "feedparser.*",
+    "testcontainers.*",
+    "langchain_google_genai.*",
+    "langgraph.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = [".", "src"]
+addopts = "--cov=morning_trading_agent --cov-report=term-missing --cov-fail-under=80"
+
+[tool.coverage.run]
+source = ["morning_trading_agent"]
+omit = [
+    "*/tests/*",
+    "*/infrastructure/providers/news/moneycontrol_adapter.py",
+    "*/infrastructure/providers/news/economic_times_adapter.py",
+    "*/infrastructure/llm/gemini_adapter.py",
+    "*/infrastructure/telegram/telegram_adapter.py",
+    "*/infrastructure/database/repositories/*",
+]

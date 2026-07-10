@@ -1,0 +1,168 @@
+version: 1
+workflow_order:
+- news
+- research
+- technical
+- ranking
+- watchlist
+- reporting
+workflows:
+  news:
+    id: news
+    label: News
+    enabled: true
+    color: '#3b82f6'
+    nodes:
+    - fetch_news
+    - filter_articles
+  research:
+    id: research
+    label: Research
+    enabled: true
+    color: '#8b5cf6'
+    nodes:
+    - extract_stocks
+    - analyze_news
+    - assess_catalyst_impact
+    - enrich_catalyst_quality
+  technical:
+    id: technical
+    label: Technical
+    enabled: true
+    color: '#10b981'
+    nodes:
+    - technical_analysis
+  ranking:
+    id: ranking
+    label: Ranking
+    enabled: true
+    color: '#f59e0b'
+    nodes:
+    - build_candidates
+    - validate_scores
+    - ranking
+  watchlist:
+    id: watchlist
+    label: Watchlist
+    enabled: true
+    color: '#ef4444'
+    nodes:
+    - filter_watchlist
+    - professional_trader_gate
+    - select_watchlist
+    - pipeline_consistency
+  reporting:
+    id: reporting
+    label: Reporting
+    enabled: true
+    color: '#06b6d4'
+    nodes:
+    - explain_candidates
+    - generate_watchlist
+    - pipeline_metrics
+    - persist_results
+    - send_telegram
+node_enabled:
+  fetch_news: true
+  filter_articles: true
+  extract_stocks: true
+  analyze_news: true
+  assess_catalyst_impact: true
+  enrich_catalyst_quality: true
+  technical_analysis: true
+  build_candidates: true
+  validate_scores: true
+  ranking: true
+  filter_watchlist: true
+  professional_trader_gate: true
+  select_watchlist: true
+  pipeline_consistency: true
+  explain_candidates: true
+  generate_watchlist: true
+  pipeline_metrics: true
+  persist_results: true
+  send_telegram: true
+node_order:
+  news:
+  - fetch_news
+  - filter_articles
+  research:
+  - extract_stocks
+  - analyze_news
+  - assess_catalyst_impact
+  - enrich_catalyst_quality
+  technical:
+  - technical_analysis
+  ranking:
+  - build_candidates
+  - validate_scores
+  - ranking
+  watchlist:
+  - filter_watchlist
+  - professional_trader_gate
+  - select_watchlist
+  - pipeline_consistency
+  reporting:
+  - explain_candidates
+  - generate_watchlist
+  - pipeline_metrics
+  - persist_results
+  - send_telegram
+node_layout:
+  fetch_news:
+    x: 0.0
+    y: 0.0
+  filter_articles:
+    x: 0.0
+    y: 120.0
+  extract_stocks:
+    x: 280.0
+    y: 0.0
+  analyze_news:
+    x: 280.0
+    y: 120.0
+  assess_catalyst_impact:
+    x: 280.0
+    y: 240.0
+  enrich_catalyst_quality:
+    x: 280.0
+    y: 360.0
+  technical_analysis:
+    x: 560.0
+    y: 0.0
+  build_candidates:
+    x: 840.0
+    y: 0.0
+  validate_scores:
+    x: 840.0
+    y: 120.0
+  ranking:
+    x: 840.0
+    y: 240.0
+  filter_watchlist:
+    x: 1120.0
+    y: 0.0
+  professional_trader_gate:
+    x: 1120.0
+    y: 120.0
+  select_watchlist:
+    x: 1120.0
+    y: 240.0
+  pipeline_consistency:
+    x: 1120.0
+    y: 360.0
+  explain_candidates:
+    x: 1400.0
+    y: 0.0
+  generate_watchlist:
+    x: 1400.0
+    y: 120.0
+  pipeline_metrics:
+    x: 1400.0
+    y: 240.0
+  persist_results:
+    x: 1400.0
+    y: 360.0
+  send_telegram:
+    x: 1400.0
+    y: 480.0
